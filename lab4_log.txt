@@ -1,0 +1,89 @@
+Script started on Fri 13 Mar 2020 09:31:15 PM EDT
+]0;briannadrew@loki:~/lab4[?1034h[briannadrew@loki lab4]$ ./lab4
+[3;J[H[2JMain PID:18967   Main Parent PID:18924
+CHILD1: Child 1 started:18969  Parent is:18967
+CHILD2: Child 2 started:18970  Parent is:18967
+File copied Successfull
+
+lab4_file_copy contains 616 bytes
+
+PARENT: Child 2 ended normally
+PARENT: Child 2 completed before Child 1
+GRANDCHILD: Grandchild started:18971  Parent is:18969
+Trying...
+Trying...
+Trying...
+/* =================================================================== *
+*                   Process Creation (Fork & Wait)                     *
+*                                                                      *
+*  Name: lab4.c                                                        *
+*                                                                      *
+*  Written by: Brianna Drew - March 2020                               *
+*                                                                      *
+*  Purpose: To use fork, execlp, wait, and waitpid to create and       *
+*           control processes (three processes).                       *
+*                                                                      *
+*  Subroutines/Libraries Required:                                     *
+*      See include statements.                                         *
+* ==================================================================== */
+
+  #include <sys/types.h>
+  #include <sys/wait.h>
+  #include <unistd.h>
+  #include <time.h>
+  #include <stdio.h>
+  #include <stdlib.h>
+Trying...
+PARENT: Grandchild ended normally
+PARENT: Child 1 ended normally
+
+md5sum file comparison
+----------------------------------------------------
+414c7f0d9ee9513bbcda93a3097a2031  /home/COIS/3380/lab2_document.txt
+414c7f0d9ee9513bbcda93a3097a2031  ./lab4_file_copy
+]0;briannadrew@loki:~/lab4[briannadrew@loki lab4]$ ex[K[K./lab4
+[3;J[H[2JMain PID:19043   Main Parent PID:18924
+CHILD1: Child 1 started:19045  Parent is:19043
+CHILD2: Child 2 started:19046  Parent is:19043
+File copied Successfull
+
+lab4_file_copy contains 616 bytes
+
+PARENT: Child 2 ended normally
+PARENT: Child 2 completed before Child 1
+GRANDCHILD: Grandchild started:19047  Parent is:19045
+Trying...
+Trying...
+Trying...
+/* =================================================================== *
+*                   Process Creation (Fork & Wait)                     *
+*                                                                      *
+*  Name: lab4.c                                                        *
+*                                                                      *
+*  Written by: Brianna Drew - March 2020                               *
+*                                                                      *
+*  Purpose: To use fork, execlp, wait, and waitpid to create and       *
+*           control processes (three processes).                       *
+*                                                                      *
+*  Subroutines/Libraries Required:                                     *
+*      See include statements.                                         *
+* ==================================================================== */
+
+  #include <sys/types.h>
+  #include <sys/wait.h>
+  #include <unistd.h>
+  #include <time.h>
+  #include <stdio.h>
+  #include <stdlib.h>
+Trying...
+PARENT: Grandchild ended normally
+PARENT: Child 1 ended normally
+
+md5sum file comparison
+----------------------------------------------------
+414c7f0d9ee9513bbcda93a3097a2031  /home/COIS/3380/lab2_document.txt
+414c7f0d9ee9513bbcda93a3097a2031  ./lab4_file_copy
+]0;briannadrew@loki:~/lab4[briannadrew@loki lab4]$ exit
+exit
+
+Script done on Fri 13 Mar 2020 09:31:59 PM EDT
